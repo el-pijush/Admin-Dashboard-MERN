@@ -1,6 +1,5 @@
-// color design tokens export
-export const tokensDark = {
-    grey: {
+export const tokensDark={
+  grey: {
       0: "#ffffff", // manually adjusted
       10: "#f6f6f6", // manually adjusted
       50: "#f0f0f0", // manually adjusted
@@ -15,33 +14,30 @@ export const tokensDark = {
       900: "#141414",
       1000: "#000000", // manually adjusted
     },
-    primary: {
-      // blue
-      100: "#d3d4de",
-      200: "#a6a9be",
-      300: "#7a7f9d",
-      400: "#4d547d",
-      500: "#21295c",
-      600: "#191F45", // manually adjusted
-      700: "#141937",
-      800: "#0d1025",
-      900: "#070812",
-    },
-    secondary: {
-      // yellow
-      50: "#f0f0f0", // manually adjusted
-      100: "#fff6e0",
-      200: "#ffedc2",
-      300: "#ffe3a3",
-      400: "#ffda85",
-      500: "#ffd166",
-      600: "#cca752",
-      700: "#997d3d",
-      800: "#665429",
-      900: "#332a14",
-    },
-  };
-  
+  primary: {
+      100: "#ced1d4",
+      200: "#9da3a9",
+      300: "#6d747f",
+      400: "#3c4654",
+      500: "#0b1829",
+      600: "#091321",
+      700: "#070e19",
+      800: "#040a10",
+      900: "#020508"
+  },
+  secondary: {
+      100: "#d6f7fb",
+      200: "#aeeff7",
+      300: "#85e8f3",
+      400: "#5de0ef",
+      500: "#34d8eb",
+      600: "#2aadbc",
+      700: "#1f828d",
+      800: "#15565e",
+      900: "#0a2b2f"
+  },
+}
+
   // function that reverses the color palette
   function reverseTokens(tokensDark) {
     const reversedTokens = {};
